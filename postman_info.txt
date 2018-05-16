@@ -4,3 +4,9 @@ http://localhost:8000/api/Books
 http://localhost:8000/api/Books/5afaf84dbe31c90157a3a6a8
 
 http://localhost:8000/api/Books?genre=Historical Fiction
+
+
+When your request body is a json, don't forget put "Content-Type:application/json" into the request header.
+
+For put, patch and delete, we need to use this url format.
+http://localhost:8000/api/books/5afb028bbf99a10982639df6
